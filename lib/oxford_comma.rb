@@ -7,7 +7,7 @@ new_string = ""
   array.size > 1 && element != array[-1]
     new_string << "#{element}, "
   else
-    new_string << "and #{element}"
+    new_string << " and #{element}"
   end
 end
   return new_string
